@@ -1,35 +1,85 @@
 export const content = {
   brand: "High Pace",
   meta: {
-    title: "High Pace | Software consulting and architecture",
+    title: "High Pace | Software consulting and solution architecture",
     description:
-      "Software consulting and architecture for teams making technical decisions that are expensive to reverse.",
+      "Software consultant and solution architect with 20 years of experience across banking, insurance and enterprise platforms.",
   },
   hero: {
     role: "Software consultant & architect",
-    headline: "Clear technical decisions. Software that ships.",
+    headline: "Solution architecture for finance and enterprise.",
     intro:
-      "I help technical leaders and founders design systems, weigh trade-offs and keep delivery moving.",
+      "20 years of designing, building and integrating software, from first requirements to production.",
   },
   about: {
     heading: "About",
-    body: "I work with teams as a software consultant and architect. I get close to the code and the people behind it, find what is actually slowing things down, and help choose an approach the team can build and run on its own.",
+    body: "I lead architecture and development, from early requirements through system design, implementation and integration to production rollout. I have been chief designer and team leader on an international project, and I deliver projects in English and German.",
   },
   services: {
     heading: "What I do",
     items: [
       {
-        title: "Software architecture",
-        text: "Designing new systems and evolving existing ones, with trade-offs written down and understood.",
+        title: "Solution architecture",
+        text: "Designing web and enterprise systems, from requirements engineering to technical leadership.",
       },
       {
-        title: "Technical consulting",
-        text: "An independent view on technology choices, platform direction and technical risk.",
+        title: "Cloud architecture on Azure",
+        text: "Data storage, infrastructure, business continuity, identity, governance and monitoring.",
       },
       {
-        title: "Delivery guidance",
-        text: "Working alongside teams to remove bottlenecks and make shipping routine.",
+        title: "Integration and migration",
+        text: "Connecting core business platforms and moving existing systems and data to modern technology.",
       },
+      {
+        title: "Technical team leadership",
+        text: "Leading development teams through design, implementation and rollout, with hands-on technical guidance along the way.",
+      },
+    ],
+  },
+  work: {
+    heading: "Selected work",
+    items: [
+      {
+        title: "British health insurer",
+        text: "Supervised the system architecture and managed the engineering team through a cloud migration.",
+      },
+      {
+        title: "German reinsurance company",
+        text: "Designed and built a contract management system with contact and master data management, plus inbound and outbound migration interfaces.",
+      },
+      {
+        title: "German insurance company",
+        text: "Integrated core insurance software, with early-stage requirements engineering and consultancy.",
+      },
+      {
+        title: "German direct bank",
+        text: "Migrated trading and online banking to modern web technologies and developed mobile banking.",
+      },
+    ],
+  },
+  technologies: {
+    heading: "Technologies",
+    items: [
+      "Microsoft Azure",
+      "C# and .NET",
+      "Sitecore",
+      "Guidewire InsuranceSuite",
+    ],
+  },
+  certifications: {
+    heading: "Certifications",
+    items: [
+      "Claude Certified Architect – Professional (Anthropic)",
+      "Azure Solutions Architect Expert (Microsoft)",
+      "Sitecore .NET Developer 10 (Sitecore)",
+      "InsuranceSuite 8.0 Integration Specialist (Guidewire)",
+    ],
+  },
+  background: {
+    heading: "Background",
+    items: [
+      "MSc in Computer Science",
+      "Available for projects in English and German",
     ],
   },
   contact: {

@@ -1,6 +1,8 @@
 # High Pace
 
-Personal home page with the bio of a software consultant and architect. The first version is deliberately generic: get it online, then add real details.
+Personal home page with the bio of a software consultant and architect.
+
+Keep personal details off the page and out of the repository: no name, location, photo, personal email, university, employer names, client names, other people's names, recommendations or credential IDs. Publish professional details only, and describe clients by sector as the owner's LinkedIn profile does.
 
 ## Stack
 

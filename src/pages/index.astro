@@ -1,7 +1,8 @@
 ---
 import { content } from "../content";
 
-const { brand, meta, hero, about, services, contact } = content;
+const { brand, meta, hero, about, services, work, technologies, certifications, background, contact } = content;
+const lists = [technologies, certifications, background];
 const canonical = new URL("/", Astro.site).href;
 const year = new Date().getFullYear();
 ---
@@ -55,6 +56,33 @@ const year = new Date().getFullYear();
           }
         </ul>
       </section>
+
+      <section class="row">
+        <h2>{work.heading}</h2>
+        <ul class="services">
+          {
+            work.items.map((item) => (
+              <li>
+                <h3>{item.title}</h3>
+                <p>{item.text}</p>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+
+      {
+        lists.map((list) => (
+          <section class="row">
+            <h2>{list.heading}</h2>
+            <ul class="plain">
+              {list.items.map((item) => (
+                <li>{item}</li>
+              ))}
+            </ul>
+          </section>
+        ))
+      }
 
       <section class="row">
         <h2>{contact.heading}</h2>
@@ -210,6 +238,13 @@ const year = new Date().getFullYear();
   .services p {
     max-width: 52ch;
     color: var(--muted);
+  }
+
+  .plain {
+    display: grid;
+    gap: 0.35rem;
+    padding: 0;
+    list-style: none;
   }
 
   .cta {
