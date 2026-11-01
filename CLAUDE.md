@@ -10,7 +10,7 @@ Personal home page with the bio of a software consultant and architect. The firs
 
 ## Hosting
 
-GitHub Pages at https://stompsu.github.io/high-pace/, deployed by `.github/workflows/deploy.yml` on pushes to `main`. The repository is public, so keep anything private out of it. If the site moves to a custom domain, update `site` and `base` in `astro.config.mjs`.
+GitHub Pages at https://highpace.dev, deployed by `.github/workflows/deploy.yml` on pushes to `main`. The custom domain is set in the repository's Pages settings, so no `CNAME` file is needed. DNS is managed at Porkbun. The repository is public, so keep anything private out of it.
 
 ## Commands
 

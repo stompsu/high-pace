@@ -1,7 +1,6 @@
 import { defineConfig } from "astro/config";
 
 export default defineConfig({
-  site: "https://stompsu.github.io",
-  base: "/high-pace",
+  site: "https://highpace.dev",
   output: "static",
 });
