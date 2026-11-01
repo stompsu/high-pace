@@ -23,7 +23,10 @@ const year = new Date().getFullYear();
   </head>
   <body>
     <header class="wrap masthead">
-      <span class="wordmark">{brand}</span>
+      <picture>
+        <source srcset="/logo-on-dark.webp" media="(prefers-color-scheme: dark)" />
+        <img class="logo" src="/logo-on-light.webp" alt={brand} width="825" height="96" />
+      </picture>
     </header>
 
     <main class="wrap">
@@ -131,9 +134,12 @@ const year = new Date().getFullYear();
     padding-block: 1.75rem;
   }
 
-  .wordmark {
-    font-weight: 700;
-    letter-spacing: -0.01em;
+  .logo {
+    display: block;
+    width: auto;
+    max-width: 100%;
+    height: auto;
+    max-height: 2rem;
   }
 
   .hero {
